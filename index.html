@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional Full Stack Developer Portfolio based in Bangalore. Experienced in Java, Python, Node.js, React, and MongoDB.">
+    <title>Portfolio | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="#" class="logo"><span style="color: var(--primary)">KAUSHAL</span><span> PORTFOLIO </span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                        <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" style="display: none;">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <h1 class="glitch dynamic-title" data-text="KAUSHAL KUMAR SHAH">KAUSHAL KUMAR SHAH</h1>
+                <p class="subtitle" id="typewriter-text"></p>
+
+                <div class="tech-stack-preview">
+                    <span>HTML/CSS/JS</span> • <span>Node.js</span> • <span>Java</span> • <span>Python</span>
+                </div>
+
+                <div class="cta-group hero-buttons">
+                    <a href="#contact" class="btn primary-btn highlight-btn">
+                        Get In Touch <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+                    </a>
+                    <a href="#skills" class="btn secondary-btn glass outline-btn">
+                        Explore My Skills <i class="fas fa-code" style="margin-left: 8px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-card glass">
+                    <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+                        alt="Profile Representation" id="profile-img" class="profile-img">
+                    <div class="card-info">
+                        <h3>Available for work</h3>
+                        <p>Bangalore, India</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <h2 class="section-title">Core Competencies</h2>
+            <div class="skills-container">
+
+                <div class="skill-category glass hover-lift">
+                    <div class="category-header">
+                        <div class="icon-wrapper">💻</div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-pct">95%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 95%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3 / Vanilla CSS</span>
+                                <span class="skill-pct">90%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 90%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript (ES6+)</span>
+                                <span class="skill-pct">85%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 85%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js <span class="badge featured">Top Skill</span></span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 80%;"></div>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass hover-lift">
+                    <div class="category-header">
+                        <div class="icon-wrapper">⚙️</div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">Java <span class="badge featured">Top Skill</span></span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 80%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">Python <span class="badge">Proficient</span></span>
+                                <span class="skill-pct">75%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 75%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">C</span>
+                                <span class="skill-pct">60%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 60%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">C++ (BASIC)</span>
+                                <span class="skill-pct">50%</span>
+                            </div>
+                            <span class="skill-bar">
+                                <div class="fill" style="width: 50%;"></div>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category glass hover-lift">
+                    <div class="category-header">
+                        <div class="icon-wrapper">🗄️</div>
+                        <h3>Databases & Tools</h3>
+                    </div>
+                    <div class="db-showcase">
+                        <div class="db-item">
+                            <svg viewBox="0 0 24 24" fill="var(--primary)" width="40">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
+                            </svg>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="db-item">
+                            <svg viewBox="0 0 24 24" fill="var(--secondary)" width="40">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
+                            </svg>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <p class="db-desc">Proficient in designing schemas, writing complex queries in MySQL, and handling
+                        NoSQL unstructured data with MongoDB.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title hover-lift">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass hover-lift">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="E-Commerce App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Next-Gen E-Commerce</h3>
+                        <p>A full-stack modern commerce platform with real-time analytics.</p>
+                        <div class="tech-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <a href="#" class="btn primary-btn outline-btn" style="margin-top: 1rem;"><i
+                                class="fas fa-link"></i> Live Preview</a>
+                    </div>
+                </div>
+                <div class="project-card glass hover-lift">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Dashboard Hub">
+                    </div>
+                    <div class="project-info">
+                        <h3>Finance Dashboard</h3>
+                        <p>Data visualization dashboard processing complex queries rapidly.</p>
+                        <div class="tech-tags">
+                            <span>Python</span><span>MySQL</span><span>CSS3</span>
+                        </div>
+                        <a href="#" class="btn primary-btn outline-btn" style="margin-top: 1rem;"><i
+                                class="fas fa-link"></i> Live Preview</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="section">
+            <h2 class="section-title hover-lift">Experience & Education</h2>
+            <div class="timeline-container">
+                <div class="timeline-item glass hover-lift">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Development Learner</h3>
+                        <span class="timeline-date">July 2025 - Present</span>
+                        <p>Mastering modern, responsive Full Stack Development workflows, technologies, and system
+                            structures at KodNest, Bangalore.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass hover-lift">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Graduated Computer Science</h3>
+                        <span class="timeline-date">2021 - 2025</span>
+                        <p>Successfully completed a comprehensive degree in Computer Science, establishing a strong
+                            foundation in software engineering and algorithms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="contact-box glass">
+                <div class="contact-info">
+                    <span class="greeting"
+                        style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.5rem; display: block;">Get
+                        In Touch</span>
+                    <h2>Let's build something amazing together</h2>
+                    <p class="intro-text">Currently open for new opportunities. Whether you have a question or just want
+                        to say hi, I'll
+                        try my best to get back to you!</p>
+
+                    <div class="contact-details"
+                        style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+                        <div class="contact-item">
+                            <div class="contact-icon highlight-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2" width="28" height="28">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Bangalore, Karnataka, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon highlight-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2" width="28" height="28">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>shahkaushal1325@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon highlight-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2" width="28" height="28">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 7049248436</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links"
+                        style="margin-top: 2.5rem; display: flex; gap: 1rem; align-items: center;">
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Message sent successfully! (Demo)');">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message <span
+                            class="arrow">→</span></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Kaushal Kumar Shah. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
